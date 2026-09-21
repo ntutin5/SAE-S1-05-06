@@ -46,3 +46,16 @@ a:hover{
     color:rgb(158, 158, 151);
     text-decoration:underline;
 }
+
+h1{
+    color: black;
+    margin: 50px;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+h2{
+    color: black;
+    margin-left: 90px;
+    font-size: ;
+}
