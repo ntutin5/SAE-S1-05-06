@@ -13,6 +13,7 @@ nav{
     left: 0;
     width: 100%;
     z-index: 1000;
+    border-bottom-style: groove;
 }
 
 .logo{
@@ -63,6 +64,7 @@ img{
     width:19.5%;
     margin-left:40px;
     padding:7px;
+    border-style: inset;
 }
 
 .info{
@@ -74,7 +76,7 @@ img{
 
 p{
     position:relative;
-    top: 60px;
+    top: 0px;
     left: 0;
     width: 30%;
     margin:10px;
