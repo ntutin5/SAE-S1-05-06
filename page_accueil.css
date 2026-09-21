@@ -56,9 +56,31 @@ img{
 
 }
 
+.title{
+    position:relative;
+    top:-300px;
+    background-color:rgba(128, 128, 128, 0.6);
+    width:19.5%;
+    margin-left:40px;
+    padding:7px;
+}
+
+.info{
+    position:relative;
+    display:flex;
+    justify-content:right;
+    top:0px;
+}
+
 p{
     position:relative;
     top: 60px;
     left: 0;
-    width: 100%;
+    width: 30%;
+    margin:10px;
+    color:aliceblue;
+    background-color:rgb(30, 29, 29);
+    padding:20px;
+    border-radius:15px;
 }
+
