@@ -1,6 +1,7 @@
 * {
     margin: 0;
     background-color:antiquewhite;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -52,12 +53,12 @@ h1{
     margin: 50px;
     margin-top: 70px;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 h2{
     color: black;
     margin-left: 90px;
-    font-size: ;
 }
 
 .t1{
@@ -68,6 +69,7 @@ h2{
 .img1{
     margin-left: 30px;
     width: 800px;
+    border-radius: 15px;
 }
 
 .texte1{
@@ -78,7 +80,36 @@ h2{
     border-radius: 15px;
 }
 
+.info2{
+    display:flex;
+    justify-content:right;   
+}
+
+.texte2{
+    padding: 15px ;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 15px;
+    margin-right: 5%; 
+}
+
+.img_createur{
+    position:relative;
+    right: 20px;
+    margin-right: 20 px;
+    width: 550px;
+    margin:0;
+    border-radius: 15px;
+}
+
+
+
+
+
+
 footer{
+    margin-top: 5%;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
