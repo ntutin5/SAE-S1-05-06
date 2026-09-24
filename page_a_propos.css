@@ -21,8 +21,9 @@ nav{
     width:45px;
     position: fixed;
     top: 7px;
-    left: 7px;
+    left: 15px;
     z-index: 1000;
+    border-radius: 10px;
 }
 
 a {
@@ -45,7 +46,7 @@ a:hover{
 
 .actif{
     color:rgb(158, 158, 151);
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 h1{
