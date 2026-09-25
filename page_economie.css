@@ -1,9 +1,12 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: antiquewhite;
     font-family: 'Lato', sans-serif;
 }
 
+/* --- Barre de navigation --- */
 nav {
     width: 100%;
     height: 60px;
@@ -24,7 +27,7 @@ nav {
     border-radius: 10px;
 }
 
-a {
+nav a {
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -37,7 +40,7 @@ a {
     font-size: 15px;
 }
 
-a:hover {
+nav a:hover {
     color: rgb(158, 158, 151);
     text-decoration: underline;
 }
@@ -47,72 +50,65 @@ a:hover {
     text-decoration: underline;
 }
 
+/* --- Titres principaux --- */
 h1 {
     color: black;
-    margin: 50px;
-    margin-top: 70px;
-    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 38px;
     text-decoration: underline;
 }
 
-h2 {
-    color: black;
-    margin-left: 90px;
-}
-
-.t1 {
+/* --- Conteneurs centrés en colonne --- */
+.t1, .info2 {
     display: flex;
-    justify-content: right;
+    flex-direction: column;   /* Empile l'image et le texte l'un sous l'autre */
+    align-items: center;       /* Centre horizontalement */
+    max-width: 900px;          /* Largeur maximale de la colonne centrale */
+    margin: 0 auto 50px auto;  /* Centre le bloc sur la page */
+    padding: 0 20px;
 }
 
-.img1 {
-    margin-left: 30px;
-    width: 800px;
+/* --- Images centrées --- */
+.img1, .img_createur {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
     border-radius: 15px;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Légère ombre pour faire ressortir l'image */
 }
 
-.texte1 {
-    padding: 15px;
+/* --- Blocs de texte centrés --- */
+.texte1, .texte2 {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
     background-color: black;
     color: aliceblue;
-    margin: 20px;
+    margin: 15px auto;
     border-radius: 15px;
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;       /* Texte bien aligné et soigné */
 }
 
-.info2 {
-    display: flex;
-    justify-content: right;   
-}
-
-.texte2 {
-    padding: 15px;
-    background-color: black;
-    color: aliceblue;
-    margin: 20px;
-    border-radius: 15px;
-    margin-right: 5%; 
-}
-
-.img_createur {
-    position: relative;
-    right: 20px;
-    width: 550px;
-    margin: 0;
-    border-radius: 15px;
-}
-
+/* --- Pied de page --- */
 footer {
-    margin-top: 5%;
+    margin-top: 60px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(19, 19, 19);
+    padding: 20px 0;
 }
 
 footer > p {
     width: auto;
-    margin: 10px;
+    margin: 5px;
     padding: 0;
     color: aliceblue;
     background-color: rgb(19, 19, 19);
@@ -131,10 +127,10 @@ footer > p {
     width: auto;
     color: aliceblue;
     background-color: rgb(19, 19, 19);
+    margin-right: 10px;
 }
 
 .flien {
-    position: static;
     width: 32px;
     height: 32px;
 }
