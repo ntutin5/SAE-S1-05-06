@@ -56,9 +56,14 @@ a:hover{
     text-decoration:underline;
 }
 
-.actif{
-    color:rgb(158,158,151);
+.lienNav.actif{
+    color:rgb(158, 158, 151);
     text-decoration:none;
+}
+
+.lienNav.actif:hover{
+    color:rgb(158, 158, 151);
+    text-decoration:underline;
 }
 
 
