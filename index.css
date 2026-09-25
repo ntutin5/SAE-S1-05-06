@@ -39,7 +39,7 @@ nav{
     border-radius:10px;
 }
 
-a {
+.lienNav {
     text-align:center;
     padding: 10px;
     margin : 10px;
@@ -87,6 +87,14 @@ a:hover{
     display:flex;
     justify-content:right;
     top:-50px;
+}
+
+.lienTexte{
+    margin:0;
+    padding:0;
+    background-color:rgb(30, 29, 29);
+    color:aqua;
+    
 }
 
 p{
