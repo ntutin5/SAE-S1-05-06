@@ -1,6 +1,12 @@
+:root {
+    --charbon: #111113;
+    --rose: #F45695;
+    --rose-fonce: #E63E81;
+    --menthe: #DBF9F4;
+}
+
 * {
     margin: 0;
-    background-color:antiquewhite;
     font-family: 'Lato', sans-serif;
 }
 
@@ -8,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: var(--menthe);
 }
 
 
@@ -20,7 +27,7 @@ main {
 nav{
     width:100%;
     height: 60px;
-    background-color : rgb(0, 0, 0);
+    background-color: var(--charbon);
     position: fixed;
     top: 0;
     left: 0;
@@ -36,7 +43,7 @@ nav{
     top: 7px;
     left: 15px;
     z-index: 1000;
-    background-color:rgb(0,0 , 0);
+    background-color: var(--charbon);
 }
 
 .lienNav {
@@ -44,27 +51,27 @@ nav{
     padding: 10px;
     margin : 10px;
     margin-right:20px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--charbon);
     display:block;
     float:right;
     text-decoration:none;
-    color:rgb(251, 251, 251);
-    font-size:15px
+    color: var(--menthe);
+    font-size: 15px;
 }
 
 a:hover{
-    color:rgb(158, 158, 151);
-    text-decoration:underline;
+    color: var(--rose);
+    text-decoration: underline;
 }
 
 .lienNav.actif{
-    color:rgb(158, 158, 151);
-    text-decoration:none;
+    color: var(--rose);
+    text-decoration: none;
 }
 
 .lienNav.actif:hover{
-    color:rgb(158, 158, 151);
-    text-decoration:underline;
+    color: var(--rose);
+    text-decoration: underline;
 }
 
 
@@ -80,38 +87,40 @@ a:hover{
 .title{
     position:relative;
     top:-300px;
-    background-color:rgba(128, 128, 128, 0.6);
+    background-color: rgba(17, 17, 19, 0.76);
+    color: var(--menthe);
     width:19.5%;
     margin-left:40px;
     padding:7px;
-    border-style: inset;
+    border-left: 5px solid var(--rose);
 }
 
 .info{
     position:relative;
     display:flex;
     justify-content:right;
-    top:-50px;
+    top:0px;
 }
 
 .lienTexte{
     margin:0;
     padding:0;
-    background-color:rgb(30, 29, 29);
-    color:aqua;
+    background-color: var(--charbon);
+    color: var(--rose);
     
 }
 
-p{
+.texte{
     position:relative;
-    top: 0px;
+    top: -130px;
     left: 0;
     width: 30%;
     margin:10px;
-    color:aliceblue;
-    background-color:rgb(30, 29, 29);
+    color: var(--menthe);
+    background-color: var(--charbon);
     padding:20px;
-    border-radius:15px;
+    border-radius: 8px;
+    border-top: 3px solid var(--rose-fonce);
 }
 
 footer{
@@ -119,15 +128,15 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:rgb(19, 19, 19);
+    background-color: var(--charbon);
 }
 
 footer > p{
     width: auto;
     margin: 10px;
-    padding: 0;
-    color: aliceblue;
-    background-color:rgb(19,19,19);
+    padding: 20px;
+    color: var(--menthe);
+    background-color: var(--charbon);
     display:flex;
     justify-content:center;
 }
@@ -136,14 +145,14 @@ footer > p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--charbon);
 
 }
 
 .finfo p {
     width: auto;
-    color: aliceblue;
-    background-color: rgb(19, 19, 19);
+    color: var(--menthe);
+    background-color: var(--charbon);
 }
 
 .flien {
