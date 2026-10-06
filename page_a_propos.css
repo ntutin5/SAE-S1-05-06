@@ -41,12 +41,12 @@ nav{
 }
 
 a:hover{
-    color:rgb(158, 158, 151);
+    color:#E63E81;
     text-decoration:underline;
 }
 
 .lienNav.actif{
-    color:rgb(158, 158, 151);
+    color:#E63E81;
     text-decoration:none;
 }
 
@@ -131,6 +131,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     background-color:rgb(19, 19, 19);
+    border-top: 3px solid #E63E81;
+    
 }
 
 footer > p{
