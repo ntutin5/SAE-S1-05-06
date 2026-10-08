@@ -68,58 +68,80 @@ h2{
     margin-left: 90px;
 }
 
-.t1{
-    display:flex;
-    justify-content:right;
-    border-color: #F45695;
+.t1,
+.info2 {
+    position: relative;
+    width: min(1000px, 90%);
+    height: 390px;
+    margin: 40px auto 70px;
+
 }
 
-.img1{
-    margin-left: 30px;
-    width: 800px;
-    border-radius: 15px;
+/* Images à gauche */
+.img1,
+.img_createur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
     border: 3px solid #E63E81;
+    border-radius: 15px;
     box-sizing: border-box;
 }
 
-.texte1{
-    padding: 15px ;
-    background-color: black;
-    color: aliceblue;
-    margin: 20px;
-    border-radius: 15px;
-    border: 3px solid #E63E81;
-    box-sizing: border-box; 
+/* Taille identique pour les deux images */
+.img_createur,
+.img1 {
+    width: 80%;
+    height: 350px;
 }
 
-.info2{
-    display:flex;
-    justify-content:right;   
-}
-
-.texte2{
-    padding: 15px ;
-    background-color: black;
-    color: aliceblue;
-    margin: 20px;
-    border-radius: 15px;
-    margin-right: 5%;
-    border: 3px solid #E63E81;
-    box-sizing: border-box; 
-}
-
-.img_createur{
-    position:relative;
-    right: 20px;
-    margin-right: 20 px;
+/* Les deux textes ont la même position par rapport à leur image */
+.texte1,
+.texte2 {
+    position: absolute;
+    top: 250px;
+    right: -225px;
     width: 550px;
-    margin:0;
-    border-radius: 15px;
+    min-height: 0;
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: #000;
     border: 3px solid #E63E81;
+    border-radius: 15px;
     box-sizing: border-box;
+    z-index: 1;
 }
 
+@media (max-width: 700px) {
+    .t1,
+    .info2 {
+        height: auto;
+        margin: 40px 5% 30px;
+    }
 
+    .img1,
+    .img_createur,
+    .texte1,
+    .texte2 {
+        position: relative;
+        inset: auto;
+        width: 100%;
+    }
+
+    .img1,
+    .img_createur {
+        height: 240px;
+    }
+
+    .texte1,
+    .texte2 {
+        margin-top: -35px;
+        margin-left: 12px;
+        width: calc(100% - 24px);
+    }
+}
 
 
 
