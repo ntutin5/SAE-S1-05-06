@@ -25,6 +25,7 @@ nav{
     top: 7px;
     left: 15px;
     z-index: 1000;
+    background-color: var(--charbon);
 }
 
 .lienNav {
