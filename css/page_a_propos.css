@@ -40,6 +40,16 @@ nav{
     font-size:15px
 }
 
+.lienLogo {
+    height:45px;
+    width:45px;
+    position: fixed;
+    top: 7px;
+    right: 15px;
+    z-index: 1000;
+    background-color: var(--charbon);
+}
+
 a:hover{
     color:#E63E81;
     text-decoration:underline;
