@@ -81,7 +81,7 @@ h2{
 .t1,
 .info2 {
     position: relative;
-    width: min(1000px, 90%);
+    width: min(1225px, 90%);
     height: 390px;
     margin: 40px auto 70px;
 
@@ -103,7 +103,7 @@ h2{
 /* Taille identique pour les deux images */
 .img_createur,
 .img1 {
-    width: 80%;
+    width: 65.306%;
     height: 350px;
 }
 
@@ -112,8 +112,8 @@ h2{
 .texte2 {
     position: absolute;
     top: 250px;
-    right: -225px;
-    width: 550px;
+    right: 0;
+    width: 44.898%;
     min-height: 0;
     padding: 10px 15px;
     color: aliceblue;
