@@ -17,6 +17,9 @@ body {
     background-color: var(--charbon);
 }
 
+.bouton {
+    margin-right:50px;
+}
 
 main {
     flex: 1;
