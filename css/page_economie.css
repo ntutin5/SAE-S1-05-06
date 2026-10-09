@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: antiquewhite;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 /* --- Barre de navigation --- */
@@ -16,6 +16,22 @@ nav {
     left: 0;
     z-index: 1000;
 }
+
+.bouton {
+    margin-right:50px;
+}
+
+
+.lienLogo {
+    height:45px;
+    width:45px;
+    position: fixed;
+    top: 7px;
+    right: 15px;
+    z-index: 1000;
+    background-color: var(--charbon);
+}
+
 
 .logo {
     height: 45px;
@@ -38,6 +54,13 @@ nav a {
     text-decoration: none;
     color: rgb(251, 251, 251);
     font-size: 15px;
+}
+
+nav a:has(> img) {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    text-decoration: none;
 }
 
 nav a:hover {
