@@ -6,8 +6,10 @@
 
 ## Membres du groupe :
 
-[TUTIN Nathan](mailto:nathan.tutin@edu.univ-fcomte.fr?subject=SAE_S1_05_06)
-[THIRION Quentin](mailto:quentin.thirion@edu.univ-fcomte.fr?subject=SAE_S1_05_06)  
+[TUTIN Nathan (référent)](mailto:nathan.tutin@edu.univ-fcomte.fr?subject=SAE_S1_05_06)
+
+[THIRION Quentin](mailto:quentin.thirion@edu.univ-fcomte.fr?subject=SAE_S1_05_06) 
+
 [RIFFIOD Clément](mailto:clement.riffiod@edu.univ-fcomte.fr?subject=SAE_S1_05_06)
 
 
