@@ -3,6 +3,7 @@
 ## Site vitre de présentation de DailyMotion
 
 [DailyMotion](https://ntutin5.github.io/SAE-S1-05-06/)
+[DailyMotion gitlab](https://sae-s1-05-06-b2d3cf.gitlab.io/index.html)
 
 ## Membres du groupe :
 
