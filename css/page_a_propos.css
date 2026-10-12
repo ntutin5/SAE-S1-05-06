@@ -91,7 +91,8 @@ h2{
 }
 
 .t1,
-.info2 {
+.info2,
+.origine {
     position: relative;
     width: min(1225px, 90%);
     height: 390px;
@@ -101,7 +102,8 @@ h2{
 
 /* Images à gauche */
 .img1,
-.img_createur {
+.img_createur,
+.img {
     position: absolute;
     top: 0;
     left: 0;
@@ -114,14 +116,16 @@ h2{
 
 /* Taille identique pour les deux images */
 .img_createur,
-.img1 {
+.img1,
+.img {
     width: 65.306%;
     height: 350px;
 }
 
 /* Les deux textes ont la même position par rapport à leur image */
 .texte1,
-.texte2 {
+.texte2,
+.texte {
     position: absolute;
     top: 250px;
     right: 0;
@@ -138,27 +142,32 @@ h2{
 
 @media (max-width: 700px) {
     .t1,
-    .info2 {
+    .info2,
+    .origine {
         height: auto;
         margin: 40px 5% 30px;
     }
 
     .img1,
     .img_createur,
+    .img,
     .texte1,
-    .texte2 {
+    .texte2
+    .texte {
         position: relative;
         inset: auto;
         width: 100%;
     }
 
     .img1,
-    .img_createur {
+    .img_createur,
+    .img {
         height: 240px;
     }
 
     .texte1,
-    .texte2 {
+    .texte2,
+    .texte {
         margin-top: -35px;
         margin-left: 12px;
         width: calc(100% - 24px);
