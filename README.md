@@ -1,14 +1,8 @@
-# SAE-S1-05-06
-lien du site : [lien vers notre site](https://ntutin5.github.io/SAE-S1-05-06/)
-## Membre du groupe :
+# S1-SAE-05-06  
 
+## Site vitre de présentation de DailyMotion
 
-
-# Titre sujet   
-
-## Sujet    
-
-[Nom du projet](https://login.github.io/projet/)
+[DailyMotion](https://ntutin5.github.io/SAE-S1-05-06/)
 
 ## Membres du groupe :
 
