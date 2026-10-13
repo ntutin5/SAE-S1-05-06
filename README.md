@@ -64,7 +64,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : THIRION Quentin**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html#file)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fntutin5.github.io%2FSAE-S1-05-06%2Fpage_a_propos.html)
 
 <br>
 <img src="image/capture_quentin_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
