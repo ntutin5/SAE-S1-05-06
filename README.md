@@ -20,7 +20,7 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel de DailyMotion (disponible [ici](https://www.dailymotion.com/fr)), du site d'un de ses principaux concurrents [xxxxxxxxxx](https://www.entreprise2.fr/) et nous avons pris comme référence la charte de ************** disponible [ici](doc/charte_graphique.pdf).    
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de DailyMotion (disponible [ici](https://www.dailymotion.com/fr)), du site du site de [notion calendar](https://www.notion.com/product/calendar) et nous avons pris la charte graphique du site de [rive](https://www.rive.app/).    
 
 
 ## Développement Site Web et Validation des pages
