@@ -3,6 +3,7 @@
 ## Site vitre de présentation de DailyMotion
 
 [DailyMotion](https://ntutin5.github.io/SAE-S1-05-06/)
+
 [DailyMotion gitlab](https://sae-s1-05-06-b2d3cf.gitlab.io/index.html)
 
 ## Membres du groupe :
@@ -16,11 +17,11 @@
 
 ## Présentation 
 
-Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise ******** et sert de vitrine pour présenter l'entreprise, ses activités, son organisation et son historique.
+Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise DailyMotion et sert de vitrine pour présenter l'entreprise, ses activités, son économie et son historique.
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel de ******* (disponible [ici](https://www.entreprise.com/fr-fr/)), du site d'un de ses principaux concurrents [xxxxxxxxxx](https://www.entreprise2.fr/) et nous avons pris comme référence la charte de ************** disponible [ici](doc/charte_graphique.pdf).    
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de DailyMotion (disponible [ici](https://www.dailymotion.com/fr)), du site du site de [notion calendar](https://www.notion.com/product/calendar) et nous avons pris la charte graphique du site de [rive](https://www.rive.app/).    
 
 
 ## Développement Site Web et Validation des pages
@@ -63,13 +64,13 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : THIRION Quentin**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html#file)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="image/capture_quentin_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="image/capture_quentin_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
 
 

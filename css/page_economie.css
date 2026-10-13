@@ -1,38 +1,49 @@
+:root {
+    --fond: #111113;
+    --rose-clair: #F45695;
+    --rose: #E63E81;
+    --menthe: #DBF9F4;
+    --bloc: #1E1E22;
+}
+ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
     font-family: 'Inter', sans-serif;
 }
-
+ 
+body {
+    background-color: var(--fond);
+    color: var(--menthe);
+}
+ 
 /* --- Barre de navigation --- */
 nav {
     width: 100%;
     height: 60px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--fond);
+    border-bottom: 2px solid var(--rose);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
 }
-
+ 
 .bouton {
-    margin-right:50px;
+    margin-right: 50px;
 }
-
-
+ 
 .lienLogo {
-    height:45px;
-    width:45px;
+    height: 45px;
+    width: 45px;
     position: fixed;
     top: 7px;
     right: 15px;
     z-index: 1000;
-    background-color: var(--charbon);
+    background-color: transparent;
 }
-
-
+ 
 .logo {
     height: 45px;
     width: 45px;
@@ -42,82 +53,100 @@ nav {
     z-index: 1000;
     border-radius: 10px;
 }
-
+ 
 nav a {
     text-align: center;
     padding: 10px;
     margin: 10px;
     margin-right: 20px;
-    background-color: rgb(0, 0, 0);
     display: block;
     float: right;
     text-decoration: none;
-    color: rgb(251, 251, 251);
+    color: var(--menthe);
     font-size: 15px;
 }
-
+ 
 nav a:has(> img) {
     padding: 0;
     margin: 0;
     background: transparent;
     text-decoration: none;
 }
-
+ 
 nav a:hover {
-    color: rgb(158, 158, 151);
+    color: var(--rose-clair);
     text-decoration: underline;
 }
-
+ 
 .actif {
-    color: rgb(158, 158, 151);
-    text-decoration: underline;
+    color: var(--rose-clair);
+    text-decoration: none;
 }
-
+ 
 /* --- Titres principaux --- */
 h1 {
-    color: black;
+    color: var(--rose-clair);
     text-align: center;
     margin-top: 100px;
     margin-bottom: 25px;
-    font-size: 38px;
-    text-decoration: underline;
+    font-size: 50px;          /* identique à page_a_propos.css */
+    font-weight: bold;
+    text-decoration-color: var(--rose);
 }
-
-/* --- Conteneurs centrés en colonne --- */
+ 
+/* --- Conteneurs : image à gauche, texte à droite et plus bas (décalés) --- */
 .t1, .info2 {
-    display: flex;
-    flex-direction: column;   /* Empile l'image et le texte l'un sous l'autre */
-    align-items: center;       /* Centre horizontalement */
-    max-width: 900px;          /* Largeur maximale de la colonne centrale */
-    margin: 0 auto 50px auto;  /* Centre le bloc sur la page */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1200px;
+    margin: 0 auto 70px auto;
     padding: 0 20px;
 }
-
-/* --- Images centrées --- */
+ 
+/* --- Images (colonnes 1 à 7) --- */
 .img1, .img_createur {
+    grid-column: 1 / 8;
+    grid-row: 1;
     width: 100%;
-    max-width: 800px;
     height: auto;
+    align-self: start;
     border-radius: 15px;
-    margin: 15px auto;
+    border: 2px solid var(--rose);
     display: block;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Légère ombre pour faire ressortir l'image */
+    box-shadow: 0 4px 16px rgba(230, 62, 129, 0.25);
 }
-
-/* --- Blocs de texte centrés --- */
+ 
+/* --- Blocs de texte (à droite, décalés vers le bas, chevauchent l'image) --- */
 .texte1, .texte2 {
-    width: 100%;
-    max-width: 800px;
-    padding: 20px;
-    background-color: black;
-    color: aliceblue;
-    margin: 15px auto;
+    grid-column: 7 / 13;
+    grid-row: 1;
+    align-self: start;
+    margin-top: 150px;   /* descend le texte par rapport à l'image */
+    position: relative;
+    z-index: 2;
+    background-color: var(--bloc);
+    border: 1px solid rgba(244, 86, 149, 0.35);
     border-radius: 15px;
+    padding: 20px;
+    color: var(--menthe);
     line-height: 1.6;
-    font-size: 17px;
-    text-align: justify;       /* Texte bien aligné et soigné */
+    font-size: 16px;          /* taille par défaut, comme index et page_a_propos */
+    text-align: justify;
 }
-
+ 
+/* --- Petits écrans : tout s'empile --- */
+@media (max-width: 700px) {
+    .t1, .info2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .texte1, .texte2 {
+        margin-top: 20px;
+    }
+    .info2 .texte2 { order: 2; }
+    .info2 .img_createur { order: 1; }
+}
+ 
 /* --- Pied de page --- */
 footer {
     margin-top: 60px;
@@ -125,34 +154,36 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--fond);
+    border-top: 2px solid var(--rose);
     padding: 20px 0;
 }
-
+ 
 footer > p {
     width: auto;
     margin: 5px;
     padding: 0;
-    color: aliceblue;
-    background-color: rgb(19, 19, 19);
+    color: var(--menthe);
     display: flex;
     justify-content: center;
 }
-
+ 
 .finfo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(19, 19, 19);
 }
-
+ 
 .finfo p {
     width: auto;
-    color: aliceblue;
-    background-color: rgb(19, 19, 19);
+    color: var(--menthe);
     margin-right: 10px;
 }
-
+ 
+.finfo a:hover .flien {
+    opacity: 0.7;
+}
+ 
 .flien {
     width: 32px;
     height: 32px;
