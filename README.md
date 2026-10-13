@@ -33,10 +33,10 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fntutin5.github.io%2FSAE-S1-05-06%2Findex_en.html)
 
 <br>
-<img src="image/capture_nathan_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="image/capture_nathan_W3C.png" width="400px" alt="capture ecran sur w3c">
 
 <br>
-<img src="image/capture_nathan_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'éco-conception">
+<img src="image/capture_nathan_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept pour tester l'éco-conception">
 
 <!--  style="width=400px" ne fonctionne pas -->
 
