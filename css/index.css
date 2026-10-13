@@ -143,6 +143,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     background-color: var(--charbon);
+    border-top: 3px solid #E63E81;
 }
 
 footer > p{
