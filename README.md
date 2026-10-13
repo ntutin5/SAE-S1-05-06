@@ -44,13 +44,13 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : RIFFIOD Clément**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fntutin5.github.io%2FSAE-S1-05-06%2Fpage_economie.html)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="image/capture_clement_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="image/capture_clement_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ### Présentation générale
 
